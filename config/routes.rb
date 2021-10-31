@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # get 'main', to: 'main#index'
   get 'about', to: 'about#index'
 
